@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="script.js" defer></script>
+    <title>Movie/Serie App</title>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <h1>Movie/Serie App</h1>
+            <ul>
+                <li class="active" id="movies">Movies</li>
+                <li id="series">Series</li>
+            </ul>
+            <input type="text" id="input" placeholder="Search Movie" autocomplete="off">
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <h3 class="selected" id="selected">Movies</h3>
+            </div>
+            <div class="right" id="right">
+                <span class="genre" id="genre">Genre<i class="fas fa-sort-down"></i></span>
+                <div class="container-genres" id="container-genres">
+                    <div class="left-genres" id="left-genres"></div>
+                    <div class="center-genres" id="center-genres"></div>
+                    <div class="right-genres" id="right-genres"></div>
+                </div>
+                <span class="name-genre" id="name-genre"></span>
+            </div>
+        </div>
+    </header>
+    <main>  
+    </main>
+    <div class="container-info" id="container-info"></div>
+    <div class="page-container" id="page-container">  
+        <button class="previous" id="previous">Previous</button>
+        <span id="num-page">1</span>
+        <button class="next" id="next">Next</button>         
+    </div>
+    
+</body>
+</html>
