@@ -529,7 +529,8 @@ main {
         width: 50%;
     }
 
-    header .bottom .left h3 {
+    header .bottom .left h3,
+    header .bottom .right .genre {
         font-size: 1.7rem;
     }
 
@@ -537,13 +538,13 @@ main {
         margin-right: 0;
     }
 
-    header .bottom .right .genre {
-        font-size: 1.7rem;
+    header .bottom .right .container-genres {
+        right: -50px;
     }
 
     header .bottom .right .container-genres span {
         padding: 1rem 0.1rem;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     header .bottom .right .name-genre {
@@ -582,5 +583,75 @@ main {
 
     .movie .movie-info .title {
         font-size: 1.1rem;
+    }
+
+    .page-container button {
+        font-size: 1rem;
+    }
+
+    .page-container span {
+        font-size: 1rem;
+    }
+
+    .container-info .all-info-movie {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header .top h1 {
+        font-size: 2.2rem;
+    }
+    
+    header .top ul {
+        font-size: 1.3rem;
+    }
+
+    header .top input {
+        font-size: 0.8rem;
+    }
+
+    header .bottom .left h3,
+    header .bottom .right .genre {
+        font-size: 1.5rem;
+    }
+
+    header .bottom .right .name-genre {
+        margin-left: 4px;
+        font-size: 0.8rem;
+    }
+
+    .movie {
+        width: 128px;
+    }
+
+    .movie .movie-info .title {
+        font-size: 0.9rem;
+    }
+
+    .movie .movie-info .rating {
+        font-size: 0.9rem;
+    }
+
+    .container-info .all-info-movie .info-container .info .title-rating .title {
+        font-size: 1.8rem;
+    }
+    
+    .container-info .all-info-movie .info-container .info .title-rating .rating {
+        font-size: 0.9rem;
+    }
+
+    .container-info .all-info-movie .info-container .info .date-genres .date {
+        font-size: 0.9rem;
+    }
+    
+    .container-info .all-info-movie .info-container .info .date-genres .genres{
+        font-size: 0.7rem;
+        padding: 0.1rem;
+        text-align: center;
+    }
+
+    .container-info .all-info-movie .info-container .info .overview {
+        font-size: 0.7rem;
     }
 }
